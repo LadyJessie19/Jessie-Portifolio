@@ -87,6 +87,7 @@ export const StyledNavBar = styled.span`
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding: 0.5rem;
   }
 `;
 
@@ -807,7 +808,7 @@ export const StyledPageContentAlign = styled.section`
   width: 100%;
 
   @media screen and (max-width: 799px) {
-    padding-top: 150px;
+    padding-top: 50%;
   }
 
   @media screen and (min-width: 800px) and (max-width: 850px) {
